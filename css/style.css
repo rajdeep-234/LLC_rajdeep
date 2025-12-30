@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+ul {
+  list-style: none;
+}
+.navbar{
+    background-image: linear-gradient(to top, gray, lightgray);
+    color: transparent;
+    background-clip: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.navlinks ul li{
+    margin-right: 20px;
+}
+.navlinks ul li a{
+    color: beige;
+}
+.container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.banner {
+  height: calc(100vh - 80px);
+  background-image: url(../images/Bannerimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 49px 0;
+}
+.banner .container {
+  /* background-color: aquamarine; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.banner-content {
+  background-color: aliceblue;
+  max-width: 800px;
+  transform: translateX(50%);
+  padding: 76px 0;
+  border-radius: 6px;
+}
+.banner-content h1 {
+  font-size: 68px;
+  font-family: "Amiri", sans-serif;
+  line-height: 1.3;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.banner-content p {
+  font-size: 18px;
+  /* width: 30%; */
+  font-weight: 300;
+}
+.col {
+  padding: 0 15px;
+}
+.col-50 {
+  width: 50%;
+}
+.col-33 {
+  width: 33.33%;
+}
+.col-25 {
+  width: 25%;
+}
+.col-20 {
+  width: 20%;
+}
+.common-padding {
+  padding: 100px 0;
+}
+.section-heading {
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 60px;
+}
+.customer-section {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+.customer-section span {
+  color: lightgray;
+}
+.customer-section p {
+  font-size: 30px;
+  font-family: "Amiri", sans-serif;
+}
+.section-heading span {
+  color: lightgray;
+}
+.customer-content ul {
+  display: flex;
+}
+.customer-content ul li {
+  color: #f99434;
+}
+.btn {
+  padding: 5px 30px;
+  background-color: #95a986;
+  border-radius: 40px;
+  transform: translate(50%, 50%);
+}
+.about-text h2 {
+    max-width: 580px;
+    width: 50%;
+}
+.choose-card-section{
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    margin-bottom: 30px;
+}
